@@ -108,13 +108,6 @@ class Customer(Barbers, Semaphore):
             
 # -----------------------------------------------------------------------------------------------------
 
-# test the code:
-print("\nEnter in the amount of barbers working: ")
-customer1 = Customer(int(input()), maxSeats)    # instantiate a customer
-
-# test the system:
-print("\nThe number of seats avaiable is:", customer1.barber.numSeats.val, "seats")
-print("The number of barbers available is:",customer1.barber.numBarbers.val,"barbers")
 
 
         
